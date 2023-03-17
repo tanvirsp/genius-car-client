@@ -1,0 +1,27 @@
+.order-form {
+    width: 600px;
+    margin: 20px auto;
+    padding: 65px;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+}
+.order-form input,
+.order-form textarea
+{
+    width: 93%;
+    padding: 20px;
+    margin: 7px 0;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 10px;
+}
+
+.order-form input[type="submit"]{
+    background-color: #FF3811;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 20px 35px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}

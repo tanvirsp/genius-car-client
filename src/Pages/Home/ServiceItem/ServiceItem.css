@@ -1,0 +1,42 @@
+.service-grid-item {
+    padding: 25px;
+    border: 1px solid #E8E8E8;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: all 600ms;
+}
+
+.service-grid-item img {
+    width: 100%;
+    border-radius: 20px;
+}
+/* #FF3811 */
+
+.service-title {
+    font-size: 25px;
+    color: #444444;
+    margin: 10px 0;
+}
+
+.service-price {
+    color: #FF3811;
+    font-size: 20px;   
+}
+
+.service-icon {
+    color: #FF3811;
+    font-size: 25px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    transition: all 600ms;
+}
+
+.service-grid-item:hover {
+    border: 1px solid #FF3811;
+    box-shadow: 0 0 15px 2px #ff39115d;
+}
+.service-grid-item:hover .service-icon {
+    right: 20px;
+}

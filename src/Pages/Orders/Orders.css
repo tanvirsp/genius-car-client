@@ -1,0 +1,15 @@
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.order-table, td, tr, th {
+    border: 1px solid rgb(206, 206, 206);
+}
+
+td {
+    padding: 10px
+}
+
+.table-img {
+    width: 75px
+}

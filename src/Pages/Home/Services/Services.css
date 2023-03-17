@@ -1,0 +1,17 @@
+.section-header {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.section-text {
+    color: #737373;
+    margin: 25px 0;
+    line-height: 28px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
